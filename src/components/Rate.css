@@ -1,0 +1,63 @@
+.container {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 32px;
+  width: 33rem;
+}
+.img-div {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #262e38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.title {
+  color: #ffffff;
+  margin-bottom: 7px;
+}
+.descrip {
+  color: #969fad;
+  font-size: 15px;
+  line-height: 24px;
+}
+.button-div {
+  display: flex;
+  gap: 22px;
+}
+button {
+  background: #262e38;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7c8798;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 24px;
+}
+
+.submit {
+  display: block;
+  background: #fc7614;
+  border-radius: 22.5px;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.active {
+  background-color: #fc7614;
+  color: #ffffff;
+}
